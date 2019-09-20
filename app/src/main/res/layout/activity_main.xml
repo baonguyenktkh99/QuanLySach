@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#8CBFF3"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QUẢN LÝ THƯ VIỆN"
+        android:textColor="#FF5722"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_margin="15dp"
+        />
+
+    <ImageView
+        android:layout_width="278dp"
+        android:layout_height="210dp"
+        app:srcCompat="@mipmap/cntt"
+        tools:srcCompat="@mipmap/cntt"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        >
+
+        <Button
+            android:id="@+id/btnTacGia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tác giả"
+            />
+
+        <Button
+            android:id="@+id/btnNhanVien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nhân viên"
+            />
+
+        <Button
+            android:id="@+id/btnDocGia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đọc giả"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
